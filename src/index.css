@@ -1,3 +1,141 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+.signmain{
+    width: 100%;
+    height: 919px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signupbox{
+    width: 100%;
+    /* height: 919px; */
+    left: 231px;
+    top: 319px;
+}
+.bluebg{
+    height: 219px;
+    width: 100%;
+    background-color: #203b81;
+}
+.bluemain{
+    width: 90%;
+    height: 100%;
+}
+.arrow{
+    position: absolute;
+    width: 327.35px;
+    height: 27px;
+    left: 24px;
+    top: 34px;
+}
+.logo{
+    position: absolute;
+    width: 190.76px;
+    height: 41.68px;
+    left: 120px;
+    top: 81px;
+}
+.create{
+    position: absolute;
+    /* width: 204px; */
+    height: 24px;
+    left: 110px;
+    top: 175px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+/* form */
+.whitebg{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+}
+.whitemain{
+    width: 90%;
+    /* border: 2px solid black; */
+}
+.form{
+    /* position: absolute; */
+    width: 325px;
+    height: 72px;
+    left: 25px;
+    top: 237px;
+}
+.formtext{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+}
+.input{
+    width: 100%;
+    height: 40px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 9.37px;
+    /* position: absolute; */
+    width: 324px;
+    height: 42px;
+    left: 25px;
+    top: 775px;
+}
+.started{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px;
+    /* gap: 12px; */
+    /* position: absolute; */
+    width: 325px;
+    height: 49px;
+    /* left: 25px; */
+    /* top: 833px; */
+    background: #D93C3C;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #FFF;
+}
+.or{
+    position: absolute;
+    width: 250px;
+    height: 21px;
+    right: 85px;
+    top: 800px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.75px;
+    text-transform: capitalize;
+
+/* Other Color/#242B42 */
+
+color: #242B42;
+}

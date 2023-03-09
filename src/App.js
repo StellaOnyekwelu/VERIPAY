@@ -1,12 +1,18 @@
-import Login from './components/Login'
-
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import SignUp from './components/SignUp'
 
 function App() {
   return (
-    <div>
-      <Login />
-    </div>
+    <Router>
+      <>
+        <Routes>
+          <Route path='/' element={<SignUp />} />
+        </Routes>
+      </>
+    </Router>
   )
 }
 
 export default App
+
