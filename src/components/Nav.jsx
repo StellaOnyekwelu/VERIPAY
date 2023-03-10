@@ -20,12 +20,9 @@ function Nav() {
       </nav>
       <div className={!menu ? 'hidden' :'bg-transparent w-full flex flex-col fixed z-40 gap-4 sidebar' }>
         <Link to='/' className='text font-sans font-bold text-xl'>Home</Link>
-        <Link to='./Community' className='font-sans font-bold text-xl'>Community</Link>
-        <Link to='./BookAppointment' className='font-sans font-bold text-xl'>Book An Appointment</Link>
-        <Link to='/Blog' className='font-sans font-bold text-xl'>Blog</Link>
-        <Link to='/AboutUs' className='font-sans font-bold text-xl'>About Us</Link>
-        <Link to='/SignIn' className=' text font-sans bg-white font-bold text-xl'>Sign-in</Link>
-        <Link to='/Register' className=' text font-sans font-bold  text-white text-xl'>Register</Link>
+        <Link to='/registration' className='font-sans font-bold text-xl'>Add New Business Account</Link>
+        <Link to='/Signin' className=' text font-sans font-bold text-xl'>Sign-in</Link>
+        <Link to='/signup' className=' text font-sans font-bold  text-white text-xl'>Register</Link>
       </div>
     </>
   )

@@ -64,7 +64,7 @@ function SignUp() {
                             </label>
 
                             {/* button */}
-                            <Link to='/registration' className='started'>
+                            <Link to='/dashboard' className='started'>
                             <button>Get Started</button>
                             </Link>
 
@@ -74,10 +74,10 @@ function SignUp() {
                                     <Link to='/signin' className='text font-sans font-medium text-lg'>LogIn</Link>
                                 </div>
                             </div>
-                            <div className='flex justify-center text-center mb-15 or'>
+                            {/* <div className='flex justify-center text-center mb-15 or'>
                                 <p>Or</p>
-                            </div>
-                            <button>Sign Up with Google</button>
+                            </div> */}
+                            {/* <button>Sign Up with Google</button> */}
                         </div>
                     </div>
                 </div>

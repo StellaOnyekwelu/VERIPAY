@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from './Nav';
+import Nav from './Nav';
 import Logo1 from '../assets/Logo1.png';
-import { FaGoogle, FaEye, FaEyeSlash } from 'react-icons/fa';
+import { FaGoogle, FaEye, FaEyeSlash, FaLessThan } from 'react-icons/fa';
 import { useContext } from 'react';
 import RegContext from '../context/RegContext';
 import useSubmit from './Hook/useSubmit';
@@ -14,13 +14,11 @@ function Signin() {
   return (
     <section>
       <div className="logmain">
-        <Navbar />
         <div className="logbox flex flex-col">
-          <div className='hamburger'>Navbar</div>
-          <div className='toolbar flex justify-between'>
-            <p>arrow</p>
-            <h1>Sign In</h1>
+          <div className='hamburger'>
+            <Nav />
           </div>
+          
           <div className='loglogo'>
             <img src={Logo1} alt="" />
           </div>
@@ -35,7 +33,7 @@ function Signin() {
             </div>
           </div>
           <div>
-            <label className='flex flex-row items-center checkbox'>
+            <label className='flex text-white flex-row items-center checkbox'>
               <input type='checkbox'/>
               Keep me Logged in
             </label>
@@ -45,12 +43,12 @@ function Signin() {
             </Link>
 
             <div className='flex gap-3 self-center mb-12'> 
-              <p className='font-sans font-large '>Don't Have An account?</p>
-                <Link to='/signup' className='text font-sans font-medium text-lg'>Sign Up</Link>
+              <p className='font-sans font-large text-white'>Don't Have An account?</p>
+                <Link to='/signup' className='text font-sans font-medium text-lg text-white'>Sign Up</Link>
             </div>
-            <div className='flex justify-center text-center mb-15 or'>
+            {/* <div className='flex justify-center text-center mb-15 or'>
             <p>Or</p>
-          </div>
+          </div> */}
         </div>
         </div>
       </div>
