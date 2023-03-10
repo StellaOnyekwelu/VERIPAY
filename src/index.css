@@ -18,19 +18,13 @@
 } */
 
 .signmain{
+    position: relative;
     width: 100%;
-    height: 812px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.signupbox{
-    width: 100%;
-    /* height: 919px; */
-    left: 231px;
-    top: 319px;
+    height: 1040px;
 }
 .bluebg{
+    position: absolute;
+    top: 0;
     height: 219px;
     width: 100%;
     background-color: #203b81;
@@ -50,14 +44,14 @@
     position: absolute;
     width: 190.76px;
     height: 41.68px;
-    left: 120px;
+    left: 84px;
     top: 81px;
 }
 .create{
     position: absolute;
     /* width: 204px; */
     height: 24px;
-    left: 110px;
+    left: 81px;
     top: 175px;
     font-family: 'Poppins';
     font-style: normal;
@@ -71,9 +65,11 @@
 
 /* form */
 .whitebg{
-    width: 100%;
-    height: 700px;
-    background-color: white;
+    position: absolute;
+width: 375px;
+height: 821px;
+left: 0px;
+top: 219px;
 }
 .whitemain{
     width: 90%;
@@ -117,7 +113,7 @@
     justify-content: center;
     align-items: center;
     padding: 14px 32px;
-    /* gap: 12px; */
+    gap: 12px;
     /* position: absolute; */
     width: 325px;
     height: 49px;
@@ -129,12 +125,11 @@
     margin-left: 10px;
     color: #FFF;
 }
+
 .or{
-    position: absolute;
-    width: 250px;
-    height: 21px;
-    right: 85px;
-    top: 800px;
+    /* position: absolute; */
+    /* width: 250px; */
+    /* height: 21px; */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -233,3 +228,85 @@ left: 40px;
 top: 557px;
 border: 2px solid black;
 }
+
+
+/* dashboard */
+.dash{
+    position: absolute;
+    height: 1040px;
+    left: 0px;
+    top: 0px;
+    background: #203B81;
+}
+.dasham{
+    position: absolute;
+    /* width: 327.35px; */
+    height: 27px;
+    left: 24px;
+    top: 24px;
+}
+.heltxt{
+    position: absolute;
+width: 68px;
+height: 36px;
+left: 26px;
+top: 86px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+text-align: center;
+
+/* #FFFFFF */
+
+color: #FFFFFF;
+
+}
+.reham{
+    position: absolute;
+width: 106px;
+height: 21px;
+left: 27px;
+top: 116px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+/* #FFFFFF */
+
+color: #FFFFFF;
+}
+.bell{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 305px;
+top: 84px;
+background-color: white;
+border: 1px;
+border-radius: 5px;
+}
+
+.dashwhite{
+    position: absolute;
+width: 375px;
+height: 913px;
+left: 0px;
+top: 151px;
+background: #FFFFFF;
+}
+.dashmain{
+    width: 90%;
+    height: 913px;
+}
+

@@ -6,25 +6,25 @@ import { useContext } from 'react';
 import RegContext from '../context/RegContext';
 import useSubmit from './Hook/useSubmit';
 
-function SignUp() {
+function Registration() {
     // const {hide, handlePassword} = useContext(RegContext);
     const {submit, response} = useSubmit();
     
     const REGEX_PASSWORD = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/;
   return (
-   <section>
+    <section>
         <div className='signmain flex justify-center items-center'>
             <div className='w-full'>
                <div className='flex flex-col items-center justify-center'>
                     <div className='flex justify-center items-center bluebg'>
                         <div className='flex flex-col justify-center items-center bluemain'>
-                            <Link to='/'>
+                            <Link to='/signup'>
                                 <div className='text-white arrow'>{<FaLessThan />}</div>
                             </Link>
                             <div className='flex justify-center items-center logo'>
                                 <img src={Logo1} alt="" />
                             </div>
-                            <h5 className='create'>Create your Account</h5>
+                            <h5 className='create'>Create New Business</h5>
                         </div>
                     </div>
 
@@ -64,8 +64,8 @@ function SignUp() {
                             </label>
 
                             {/* button */}
-                            <Link to='/registration' className='started'>
-                            <button>Get Started</button>
+                            <Link to='/dashboard' className='started'>
+                            <button>Register</button>
                             </Link>
 
                             <div className='flex gap-3 self-center mb-12'> 
@@ -87,4 +87,6 @@ function SignUp() {
   )
 }
 
-export default SignUp
+export default Registration
+
+

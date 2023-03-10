@@ -4,7 +4,8 @@ import Home from './components/Home';
 // import Navbar from './components/Navbar';
 import SignUp from './components/SignUp'
 import Signin from './components/Signin'
-import Verification from './components/Verification';
+import Dashboard from './components/Dashboard';
+import Registration from './components/Registration';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/signup' element={<SignUp />} />
           <Route path='/signin' element={<Signin/>} />
-          <Route path='/verification' element={<Verification/>} />
+          <Route path='/registration' element={<Registration/>} />
+          <Route path='/dashboard' element={<Dashboard/>} />
         </Routes>
       </>
     </Router>
