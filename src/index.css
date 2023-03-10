@@ -9,9 +9,17 @@
     margin: 0;
     box-sizing: border-box;
    }
+
+
+
+/* .sidebar{
+    background-color: #203b81;
+    border: 2px solid #203b81;
+} */
+
 .signmain{
     width: 100%;
-    height: 919px;
+    height: 812px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,8 +142,94 @@
     line-height: 21px;
     letter-spacing: 0.75px;
     text-transform: capitalize;
+    color: #242B42;
+}
 
-/* Other Color/#242B42 */
+/* Sign In Page */
+.logmain{
+    width: 100%;
+    height: 919px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #203b81;
+}
+.logbox{
+    width: 90%;
+}
+.hamburger{
+    position: absolute;
+    width: 327.35px;
+    height: 27px;
+    left: 24px;
+    top: 24px;
+}
+.toolbar{
+    position: absolute;
+    /* left: 0%; */
+    /* right: 0%; */
+    top: 9.36%;
+    bottom: 83.74%;
+}
+.loglogo{
+    position: absolute;
+    width: 190.76px;
+    height: 42.19px;
+    left: 89px;
+    top: 184.24px;
+}
 
-color: #242B42;
+/* Code Verification */
+.code{
+    width: 100%;
+    height: 812px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+.firstbox{
+    background-color: #203b81;
+    height: 526px;
+}
+.firstmain{
+    width: 90%;
+}
+.sidebar{
+    position: absolute;
+/* width: 327.35px; */
+height: 27px;
+left: 24px;
+top: 24px;
+}
+.firstlogo{
+    position: absolute;
+    width: 142px;
+    height: 31px;
+    left: 115px;
+    top: 60px;
+}
+confirmbox{
+    position: absolute;
+/* width: 325px; */
+height: 386px;
+left: 24px;
+top: 111px;
+gap: 32px;
+}
+.secondbox{
+    /* position: absolute; */
+    height: 424px;
+    left: 0px;
+    background: #F6F7FA;
+}
+.secondmain{
+    position: absolute;
+    width: 315px;
+height: 369px;
+left: 40px;
+top: 557px;
+border: 2px solid black;
 }
