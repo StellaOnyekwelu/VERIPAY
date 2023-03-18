@@ -1,3 +1,380 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+
+
+
+/* .sidebar{
+    background-color: #203b81;
+    border: 2px solid #203b81;
+} */
+
+.signmain{
+    position: relative;
+    width: 100%;
+}
+.bluebg{
+    position: absolute;
+    top: 0;
+    height: 219px;
+    width: 100%;
+    background-color: #203b81;
+}
+.bluemain{
+    width: 90%;
+    height: 100%;
+}
+.arrow{
+    position: absolute;
+    width: 327.35px;
+    height: 27px;
+    left: 24px;
+    top: 34px;
+}
+.logo{
+    position: absolute;
+    width: 190.76px;
+    height: 41.68px;
+    left: 84px;
+    top: 81px;
+}
+.create{
+    position: absolute;
+    /* width: 204px; */
+    height: 24px;
+    left: 81px;
+    top: 175px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+/* form */
+.whitebg{
+    position: absolute;
+width: 375px;
+/* height: 821px; */
+left: 0px;
+top: 219px;
+}
+.whitemain{
+    width: 90%;
+    /* border: 2px solid black; */
+}
+.form{
+    /* position: absolute; */
+    width: 325px;
+    height: 72px;
+    left: 25px;
+    top: 237px;
+}
+.formtext{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+}
+.input{
+    width: 100%;
+    height: 40px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 9.37px;
+    /* position: absolute; */
+    width: 324px;
+    height: 42px;
+    left: 25px;
+    top: 775px;
+}
+.started{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px;
+    gap: 12px;
+    /* position: absolute; */
+    width: 325px;
+    height: 49px;
+    /* left: 25px; */
+    /* top: 833px; */
+    background: #D93C3C;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #FFF;
+}
+
+.or{
+    /* position: absolute; */
+    /* width: 250px; */
+    /* height: 21px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.75px;
+    text-transform: capitalize;
+    color: #242B42;
+}
+
+/* Sign In Page */
+.logmain{
+    width: 100%;
+    height: 919px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #203b81;
+}
+.logbox{
+    width: 90%;
+}
+.hamburger{
+    position: absolute;
+    width: 327.35px;
+    height: 27px;
+    left: 24px;
+    top: 24px;
+    color: white;
+}
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    /* left: 0%; */
+    /* right: 0%; */
+    top: 9.36%;
+    bottom: 83.74%;
+}
+
+.loglogo{
+    position: absolute;
+    width: 190.76px;
+    height: 42.19px;
+    left: 89px;
+    top: 184.24px;
+}
+
+/* Code Verification */
+.code{
+    width: 100%;
+    height: 812px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+/* landing page */
+.firstbox{
+    background-color: #203b81;
+    height: 526px;
+}
+.firstmain{
+    width: 90%;
+}
+.sidebar{
+    position: absolute;
+/* width: 327.35px; */
+height: 27px;
+left: 24px;
+top: 24px;
+}
+.firstlogo{
+    position: absolute;
+    width: 142px;
+    height: 31px;
+    left: 115px;
+    top: 60px;
+}
+confirmbox{
+    position: absolute;
+/* width: 325px; */
+height: 386px;
+left: 24px;
+top: 111px;
+gap: 32px;
+}
+.confam{
+    font-size: xx-large;
+}
+.email{
+    width: 100%;
+    height: 40px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.secondbox{
+    /* position: absolute; */
+    left: 0px;
+    background: #F6F7FA;
+}
+/* .secondmain{
+    position: absolute;
+    width: 315px;
+    height: 369px;
+    left: 40px;
+    top: 557px;
+} */
+.excel{
+    /* position: absolute; */
+    width: 327px;
+    height: 84px;
+    left: 24px;
+    top: 979px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #203B81;
+
+}
+.veribox{
+    /* position: absolute; */
+    width: 327px;
+    /* height: 404px; */
+    left: 24px;
+    top: 1120px;
+    background: #F6F7FA;
+}
+.veritext{
+    /* position: absolute; */
+    width: 242px;
+    height: 260px;
+    left: 65px;
+    top: 1231px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 145%;
+    text-align: center;
+    color: #7E8CA0;
+    mix-blend-mode: normal;
+}
+.thirdbox{
+    /* position: absolute; */
+    width: 375px;
+    height: 391px;
+    left: 0px;
+    top: 1983px;
+    background: #203B81;
+}
+.get{
+    gap: 32px;
+    /* position: absolute; */
+    width: 310px;
+    height: 307px;
+    left: 24px;
+    top: 2031px;
+}
+.gestar{
+    background-color: #D93C3C;
+}
+
+
+/* dashboard */
+.dash{
+    position: absolute;
+    height: 1040px;
+    left: 0px;
+    top: 0px;
+    background: #203B81;
+}
+.dasham{
+    position: absolute;
+    /* width: 327.35px; */
+    height: 27px;
+    left: 24px;
+    top: 24px;
+}
+.heltxt{
+    position: absolute;
+width: 68px;
+height: 36px;
+left: 26px;
+top: 86px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+text-align: center;
+
+/* #FFFFFF */
+
+color: #FFFFFF;
+
+}
+.reham{
+    position: absolute;
+width: 106px;
+height: 21px;
+left: 27px;
+top: 116px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+/* #FFFFFF */
+
+color: #FFFFFF;
+}
+.bell{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 305px;
+top: 84px;
+background-color: white;
+border: 1px;
+border-radius: 5px;
+}
+
+.dashwhite{
+    position: absolute;
+width: 375px;
+height: 913px;
+left: 0px;
+top: 151px;
+background: #FFFFFF;
+}
+.dashmain{
+    width: 90%;
+    height: 913px;
+}
+
